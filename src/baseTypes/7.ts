@@ -11,17 +11,6 @@ enum Days {
   FRIDAY = "Work day",
   SATURDAYS = "Day off",
 }
-
-// enum Day {
-//   Monday = "Work day",
-//   Truersday = "Work day",
-//   Wednesday = "Work day",
-//   Thursday = "Work day",
-//   Friday = "Work day",
-//   Suturday = "Day off",
-//   Sunday = "Day off",
-// }
-
 function isWeekend(whatDay: string) {
   console.log(whatDay);
 }
