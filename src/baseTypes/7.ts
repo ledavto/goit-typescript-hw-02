@@ -12,8 +12,8 @@ enum DayOfWeek {
   Sunday,
 }
 
-function isWeekend(whatDay: DayOfWeek):boolean {
-  return whatDay > 5? true : false;
+function isWeekend(whatDay: DayOfWeek): boolean {
+  return whatDay >= 5 ? true : false;
 }
 
 isWeekend(DayOfWeek.Friday);
